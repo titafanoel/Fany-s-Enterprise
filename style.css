@@ -1,0 +1,157 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  a {
+    color: #ff69b4; /* changed color */
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #714dff; /* changed color */
+    text-decoration: underline;
+  }
+  
+  /* Header */
+  header {
+    background-color: #f8f9fa; /* changed color */
+    color: #333;
+    padding: 20px;
+    display: flex; /* added display flex for alignment */
+    justify-content: space-between; /* added justification for spacing */
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+    font-family: 'Playfair Display', serif; /* changed font family */
+    color: #333; /* changed color */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  /* Hero section */
+  #hero {
+    background-image: url("https://images.unsplash.com/photo-1565011467990-9162a436a42d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: #333;
+    text-align: center; /* added text-align */
+  }
+  
+  #hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  #hero p {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  
+  .cta-button {
+    background-color: #ff69b4; /* changed color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  /* About section */
+  #about {
+    padding: 50px;
+    text-align: justify; /* added text-align for better readability */
+  }
+  
+  #about p {
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  /* Services section */
+  #services {
+    padding: 50px;
+    text-align: center; /* added text-align for better layout */
+  }
+  
+  #services h2 {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  #services ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* changed display for better layout */
+    justify-content: space-around; /* added justification for spacing */
+    flex-wrap: wrap; /* added flex-wrap for responsive design */
+  }
+  
+  #services li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  /* Contact section */
+  #contact {
+    padding: 50px;
+    display: flex; /* changed display for better layout */
+    flex-direction: column; /* added flex-direction for vertical layout */
+    justify-content: space-between; /* added justification for spacing */
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+ 
+  
+  /* Contact section */
+#contact {
+    padding: 50px;
+    display: flex; /* changed display for better layout */
+    flex-direction: column; /* added flex-direction for vertical layout */
+    justify-content: space-between; /* added justification for spacing */
+  }
+  
+  #contact h2 {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  #contact p {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif; /* changed font family */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f8f9fa; /* changed color */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd; /* added border for separation */
+  }
+  
